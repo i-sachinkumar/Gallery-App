@@ -8,7 +8,7 @@
 <GridView
     android:id="@+id/gridView"
     xmlns:tools="http://schemas.android.com/tools"
-    android:numColumns="2"
+    android:numColumns="3"
     android:layout_width="match_parent"
     android:verticalSpacing="5dp"
     android:horizontalSpacing="5dp"
