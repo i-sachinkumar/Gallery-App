@@ -27,7 +27,6 @@ class GallaryAdapter(context: Context, list: List<String>):  ArrayAdapter<String
                 .with(imageView)
                 .applyDefaultRequestOptions(
                     RequestOptions()
-                        .placeholder(android.R.drawable.progress_indeterminate_horizontal)
                         .error(android.R.drawable.stat_notify_error)
                 )
                 .asBitmap()
